@@ -6,7 +6,7 @@ echo ModuleHelper::buildMethodCallForm ( "ShowDatetimeController", "saveSettings
 		"id" => "show_datetime_settings_form" 
 ) );
 ?>
-<?php if(Request::getVar("save")){?>
+<?php if(Request::hasVar("save")){?>
 <div class="alert alert-success alert-dismissable fade in">
 	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 		<?php translate("changes_was_saved")?>
