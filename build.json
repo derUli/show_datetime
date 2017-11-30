@@ -1,0 +1,9 @@
+{
+	"id": "show_datetime",
+	"version": "1.0",
+	"description": "Show Datetime",
+	"categories": [
+		"other"
+	],
+	"compatible_from": "2018.1"
+}
