@@ -1,18 +1,21 @@
 {
-	"version": "1.0",
-	"source": "extend",
-	"embed": true,
-	"shy": false,
-	"main_class": "ShowDatetimeController",
-	"controllers": {
-		"ShowDatetimeController": "controllers/ShowDatetimeController.php"
-	},
-	"admin_permission": "show_datetime",
-	"custom_acl": [
-		"show_datetime"
-	],
-	"controller_function_permissions": {
-		"ShowDatetimeController::saveSettingsPost": "show_datetime",
-		"ShowDatetimeController::previewDatePost": "show_datetime"
-	}
+    "version": "1.1",
+    "source": "extend",
+    "embed": true,
+    "shy": false,
+    "main_class": "ShowDatetimeController",
+    "controllers": {
+        "ShowDatetimeController": "controllers/ShowDatetimeController.php"
+    },
+    "admin_permission": "show_datetime",
+    "custom_acl": [
+        "show_datetime"
+    ],
+    "controller_function_permissions": {
+        "ShowDatetimeController::saveSettingsPost": "show_datetime",
+        "ShowDatetimeController::previewDatePost": "show_datetime"
+    },
+    "settings": {
+        "show_datetime_format": "%x %X"
+    }
 }
